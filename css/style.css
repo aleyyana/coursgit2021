@@ -1,0 +1,62 @@
+#resolution {
+  width: 100vw;
+  height: 10vh;
+  background-color: lightsalmon;
+}
+
+#resolution:after {
+  content: "XS < 576";
+}
+
+@media (min-width: 576px) {
+  #resolution {
+    background-color: lightseagreen;
+  }
+
+  #resolution:after {
+    content: "XS < 780";
+  }
+}
+@media (min-width: 768px) {
+  #resolution {
+    background-color: lightyellow;
+  }
+
+  #resolution:after {
+    content: "MD < 992";
+  }
+}
+@media (min-width: 992px) {
+  #resolution {
+    background-color: lightgray;
+  }
+
+  #resolution:after {
+    content: "L < 1200";
+  }
+}
+@media (min-width: 1200px) {
+  #resolution {
+    background-color: lightpink;
+  }
+
+  #resolution:after {
+    content: "XL < 1400";
+  }
+}
+@media (min-width: 1400px) {
+  #resolution {
+    background-color: lightskyblue;
+  }
+
+  #resolution:after {
+    content: "XXL < 1400";
+  }
+}
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  color: blue;
+}
